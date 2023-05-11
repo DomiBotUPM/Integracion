@@ -28,7 +28,6 @@ class StateMachine(object):
         states_names = [i.name for i in states]
         
         # Atributos de la clase
-        self.last_index = 0  # Valor n del estado CPn más alto.
         self.states_dict = dict(zip(states_names,states))  # Diccionario para acceder a los objetos estados a partir de su nombre. Clave: nombre del estado. Valor: objeto estado.
         self.current_state = self.states_dict['ST']  # Estado (el objeto) en el que se encuentra la máquina de estados. La máquina se inicia en el estado 'Start'
         self.current_output = -1  # Salida actual. Tomará valores entre 0 y 3 en momento en que se produce un cambio de estado y -1 el resto del tiempo.
