@@ -2,7 +2,7 @@
 
 Este repositorio contiene los siguientes archivos:
 - ROS_link_node.py: Plantilla básica con el código para crear un nodo con publicadores y subscriptores. Ahora es lo más genérico posible, enviando y recibiendo un string, pero se usará en el futuro para comunicar las partes de visión y lógica del juego con el movimiento del brazo.
-- 
+
 - Carpeta Game: Contiene el código necesario para 
    - state_machine.py: Implementación de una máquina de Mealy (máquina de estados) para el desarrollo de la partida. Aunque ahora mismo sería suficiente con una máquina de Moore, ya que las salidas dependerán únicamente del estado, se mantiene así por generalidad. El diseño actual de los estados es el que se muestra en la siguiente figura:
 
