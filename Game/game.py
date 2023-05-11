@@ -93,19 +93,19 @@ class Game:
     # Turn’, FN ≡‘Finish’
 
     def ST_function(self):
-        print("ST")
+        print("Función ST")
 
     def GP_function(self):
-        print("GP")
+        print("Función GP")
 
     def RT_function(self):
-        print("RT")
+        print("Función RT")
 
     def PT_function(self):
-        print("PT")
+        print("Función PT")
 
     def FN_function(self):
-        print("FN")
+        print("Función FN")
 
 
 if __name__ == '__main__':
