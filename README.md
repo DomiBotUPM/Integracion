@@ -15,5 +15,5 @@ Este repositorio contiene los siguientes archivos:
      Por el momento se ha implementado un funcionamiento de la máquina de estados de demostración (es aleatorio si flanquea una transición o no y la función de cada estado solo hace un "print" con el nombre del estado), pero se puede ejecutar y observar su funcionamiento. 
      
      FALTA POR DISEÑAR E IMPLEMENTAR:
-         - Eventos que hacen que se flanquee cada transcición, en atención a la lógica del juego.
-         - Funciones que se ejecutan en cada estado
+         (1) Eventos que hacen que se flanquee cada transcición, en atención a la lógica del juego.
+         (2) Funciones que se ejecutan en cada estado.
